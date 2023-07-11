@@ -8,12 +8,10 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #fff1fb;
-    border: 1px solid rgb(54, 87, 180);
 }
 #banner_card {
     margin: 100px 100px 100px 0px;
     width: 55%;
-    border: 2px solid red;
 }
 #banner_heading {
     padding-right: 85px;
@@ -22,12 +20,10 @@ body {
     font-family: 'Agdasima', sans-serif;
     font-size: 90px;
     font-weight: 700;
-    border: 1px solid darkgreen;
 }
 .small_pg {
     font-size: 20px;
     margin: 35px 0px;
-    border: 1px solid red;
     color: #7e7e81;
 }
 .button {
@@ -44,13 +40,8 @@ body {
     height: 100%;
 }
 /* featured section  */
-/* #featured_div {
-    padding: 0px 150px;
-    margin: 0;
-} */
 #featured_card {
     text-align: center;
-    background-color: #86ca9a;
 }
 #featured_img_div {
     display: flex;
@@ -71,9 +62,6 @@ body {
 .featured_img {
     width: 70%;
 }
-.decoreted_p {
-    text-decoration: underline;
-}
 /* hot deals section  */
 #hot_deal_div {
     margin-top: 60px;
@@ -81,10 +69,8 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #fceff5;
-    border: 1px solid green;
 }
 #hot_deal_card {
-    border: 1px solid darkgreen;
     width: 55%;
     margin: 20px;
     text-align: center;
@@ -94,7 +80,6 @@ body {
     font-family: 'Agdasima', sans-serif;
     font-size: 40px;
     font-weight: 700;
-    border: 1px solid darkgreen;
 }
 .span {
     color: #E55473;
@@ -109,12 +94,9 @@ body {
     border-color: transparent;
     background-color: #E55473;
 }
-#hot_deal_flower_img {
-    border: 1px solid #E55473;
-}
+
 /* social section  */
 #social_div {
-    border: 1px solid brown;
     margin: 0;
     padding: 0px 150px;
     display: flex;
@@ -122,7 +104,6 @@ body {
     align-items: center;
 }
 #social_card {
-    border: 1px solid darkgreen;
     text-align: center;
 }
 .social_div_imgs {
@@ -130,7 +111,6 @@ body {
 }
 /* latest deals sectin  */
 #latest_deals_div {
-    border: 1px solid green;
     height: 600px;
     background-image: url('./Flower\ Asset/Rectangle 9.png');
     background-size: auto;
@@ -145,6 +125,7 @@ body {
     width: 600px;
     height: 50px;
     border-radius: 5px;
+    border-color: transparent;
 }
 /* footer  */
 #footer {
@@ -159,16 +140,13 @@ body {
     font-family: 'Agdasima', sans-serif;
     font-size: 60px;
     font-weight: 700;
-    border: 1px solid rgb(183, 202, 183);
 }
 #footer_pg_1 {
     font-size: 20px;
     margin-top: 40px;
-    border: 1px solid red;
     color: #dadae0;
 }
 #footer_pg_2 {
     font-size: 18px;
-    border: 1px solid red;
     color: #bfbfcc;
 }
