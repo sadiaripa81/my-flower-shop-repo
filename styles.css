@@ -55,9 +55,16 @@ body {
     width: 380px;
     display: flex;
     justify-content: end;
+    position: relative;
     align-items: center;
     flex-direction: column;
     border-radius: 200px 200px 0px 0px;
+}
+.text {
+    position: absolute;
+    font-size: 25px;
+    bottom: -30px;
+    text-decoration: underline;
 }
 .featured_img {
     width: 70%;
@@ -94,7 +101,6 @@ body {
     border-color: transparent;
     background-color: #E55473;
 }
-
 /* social section  */
 #social_div {
     margin: 0;
